@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#3F51B5</color>
+    <color name="grey">#989898</color>
+    <color name="textcolor">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Task Manager</string>
+    <style name="Base.Theme.TaskManager" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+    <style name="Theme.TaskManager" parent="Base.Theme.TaskManager"/>
+</resources>
